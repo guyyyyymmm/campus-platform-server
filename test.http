@@ -1,0 +1,18 @@
+### 注册用户
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "test001",
+  "password": "123456",
+  "nickname": "测试用户"
+}
+
+### 登录用户
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "test001",
+  "password": "123456"
+}
